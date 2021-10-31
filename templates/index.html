@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Posts</h1>
+{% for post in paginator.pages %}
+<div class="post-preview">
+    <a href="{{ post.permalink | safe }}"><h2>{{ post.title }}</h1></a>
+    <p>{{ post.summary | striptags }}</p>
+</div>
+{% endfor %}
+{% endblock content%}

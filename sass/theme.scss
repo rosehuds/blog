@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Fira Sans";
+    src: url('https://mozilla.github.io/Fira/woff2/FiraSans-Regular.woff2');
+}
+
+body {
+    padding: 2em 0;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    background-color: #ded7ef;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 4px auto;
+}
+
+.sidebar {
+    width: 12em;
+    padding-right: 1em;
+    border-right: 2px solid black;
+    text-align: right;
+}
+
+.sidebar-inner {
+    top: 0;
+    padding-top: 0.5em;
+    position: sticky;
+    height: min-content;
+}
+
+.content {
+    // 40 by default, smaller if viewport needs it
+    width: 40em;
+    max-width: 40em;
+    margin-left: 2em;
+    padding-top: 0.5em;
+}
+
+a:link {
+    color: #c92463;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.anchor-link {
+    position: absolute;
+    // looks weird on 1em ???
+    margin-left: -0.9em;
+}
