@@ -7,7 +7,8 @@ body {
     padding: 2em 0;
     font-family: "Fira Sans";
     font-size: 18px;
-    background-color: #ded7ef;
+    color: #211419;
+    background-color: #e5e2f1;
 }
 
 #main {
@@ -22,7 +23,7 @@ h1 {
 }
 
 .sidebar {
-    width: 12em;
+    width: 14em;
     padding-right: 1em;
     border-right: 2px solid black;
     text-align: right;
@@ -32,7 +33,6 @@ h1 {
     top: 0;
     padding-top: 0.5em;
     position: sticky;
-    height: min-content;
 }
 
 .content {
@@ -66,6 +66,10 @@ a:link {
 
 a:hover {
     text-decoration: underline;
+}
+
+a:visited {
+    color: #c92463;
 }
 
 .anchor-link {
