@@ -80,12 +80,12 @@ a:visited {
 
 // guaranteed to look good on firefox on galaxy s9
 @media (max-width: 600px) {
-    .body {
+    body {
         padding: initial;
         margin: 1rem;
     }
 
-    .main {
+    #main {
         flex-direction: column;
     }
 
