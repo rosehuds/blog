@@ -78,12 +78,24 @@ a:visited {
     margin-left: -0.9em;
 }
 
+// guaranteed to look good on firefox on galaxy s9
 @media (max-width: 600px) {
+    .body {
+        padding: initial;
+        margin: 1rem;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
     .sidebar {
-        width: 100%;
         border-right: none;
+        padding-right: 0.5rem;
+        margin-left: auto;
     }
     .content {
         width: 100%;
+        margin: initial;
     }
 }
