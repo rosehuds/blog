@@ -37,8 +37,8 @@ h1 {
 
 .content {
     // 40 by default, smaller if viewport needs it
-    width: 40em;
-    max-width: 40em;
+    width: 40rem;
+    max-width: 40rem;
     margin-left: 2em;
     padding-top: 0.5em;
 }
@@ -76,4 +76,14 @@ a:visited {
     position: absolute;
     // looks weird on 1em ???
     margin-left: -0.9em;
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        width: 100%;
+        border-right: none;
+    }
+    .content {
+        width: 100%;
+    }
 }
