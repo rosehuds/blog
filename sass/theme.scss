@@ -78,6 +78,21 @@ a:visited {
     margin-left: -0.9em;
 }
 
+.quote {
+    margin-left: 2rem;
+}
+
+.quote-text {
+    margin-bottom: 0.25rem;
+}
+
+.quote-author {
+    margin-left: 0;
+    font-size: 16px;
+    font-style: italic;
+    color: #666;
+}
+
 // guaranteed to look good on firefox on galaxy s9
 @media (max-width: 600px) {
     body {
