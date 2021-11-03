@@ -10,7 +10,7 @@
       <!-- viewport-fit=cover is to support iPhone X rounded corners and notch in landscape-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
 
-      <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+      <title>{{ config.title }}{% block title_extra %}{% endblock title_extra %}</title>
 
       <!-- CSS -->
       <link rel="stylesheet" href="{{ get_url(path="theme.css") }}">
