@@ -1,7 +1,6 @@
 +++
 title = "GPUs, Part 1: The Feynman Technique"
-date = "2021-11-02"
-draft = true
+date = "2021-11-12"
 +++
 
 There's a lot of writing about the Feynman Technique, but essentially it boils
@@ -19,8 +18,12 @@ journey I'll try to document what I find in a way that allows any curious
 computer scientist to follow along at home. We can worry about the 12-year-olds
 later.
 
-## Why bother?
+My favourite language is Rust and I don't really know how to write anything else
+so I'll be aiming to use only Rust, at least on the CPU side. If possible, I'll
+use [rust-gpu](https://github.com/EmbarkStudios/rust-gpu) for GPU-side code as
+well.
 
+## Why bother
 GPUs are becoming more relevant as new people come up with new work to do, and
 Moore's law fails to deliver on its promise of increasing single thread
 performance to do it with[^1]. GPUs sidestep this problem by adding more
@@ -46,7 +49,7 @@ that stuff, I'll be focusing more on general computation to start with.
 My personal goal for this series is to be able to understand
 [piet-gpu](https://github.com/linebender/piet-gpu) from start to finish.
 piet-gpu is a 2D vector graphics renderer designed to leverage GPU compute to do
-what has historically been done on CPUs. Whether this goal is reasonable will
+what has historically been done on CPUs. Whether I'll be able to do this will
 probably become clear in a few months, but really it's not about the treasure,
 it's about the friends we made along the way.
 
@@ -57,6 +60,11 @@ GPUs:
 * I/O - moving data between GPU memory and main memory
 * Algorithmic techniques - taking tasks that look sequential and reframing them
   until they can be done efficiently in parallel
+
+## Conclusion
+This will be a fun exercise in self-motivation I guess. I've learned some cool
+stuff so far, so I'm optimistic about how far we'll get. The next post, a first
+look into GPU architecture, should come quite soon. I hope to see you there!
 
 [^1]: This isn't really what Moore's law is, but it's true that single thread
   performance isn't growing in the same way it used to.
