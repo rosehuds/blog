@@ -44,6 +44,7 @@ h1 {
     // 40 by default, smaller if viewport needs it
     width: 40rem;
     max-width: 40rem;
+    min-width: 0rem;
     margin-left: 2em;
     padding-top: 0.5em;
 }
@@ -118,7 +119,7 @@ code {
 }
 
 // guaranteed to look good on firefox on galaxy s9
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     body {
         padding: initial;
         margin: 1rem;
