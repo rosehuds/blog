@@ -70,3 +70,7 @@ look into GPU architecture, should come quite soon. I hope to see you there!
   performance isn't growing in the same way it used to.
   [Here](https://preshing.com/20120208/a-look-back-at-single-threaded-cpu-performance/)
   is an article from 2012 showing the effect already being visible.
+
+***
+
+{{ prev_next(prev="", next="@/gpus-2.md") }}

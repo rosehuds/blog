@@ -1,0 +1,5 @@
+<div class="prev-next">
+    {% if prev != "" %}<a href="{{ get_url(path=prev) }}">{% endif %} Previous{% if prev != "" %}</a>{% endif %}
+    &nbsp;|&nbsp;
+    {% if next != "" %}<a href="{{ get_url(path=next) }}">{% endif %}Next{% if next != "" %}</a>{% endif %}
+</div>
