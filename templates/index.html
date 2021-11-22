@@ -11,7 +11,7 @@
                 {{ post.reading_time }} minute read | {{ post.date }}
             </span>
         </div>
-        <p class="post-preview-summary">{{ post.summary | striptags }}</p>
+        <p class="post-preview-summary">{{ post.summary | striptags | safe }}</p>
     </div>
     {% endfor %}
 {% endblock content%}
