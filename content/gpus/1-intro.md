@@ -73,4 +73,4 @@ look into GPU architecture, should come quite soon. I hope to see you there!
 
 ***
 
-{{ prev_next(prev="", next="@/gpus-2.md") }}
+{{ prev_next(prev="", next="@/gpus/2-architecture.md") }}
