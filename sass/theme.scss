@@ -3,6 +3,11 @@
     src: url('https://mozilla.github.io/Fira/woff2/FiraSans-Regular.woff2');
 }
 
+@font-face {
+    font-family: "Fira Mono";
+    src: url('https://mozilla.github.io/Fira/woff2/FiraMono-Regular.woff2');
+}
+
 body {
     padding: 2em 0;
     font-family: "Fira Sans";
@@ -100,6 +105,16 @@ a:visited {
     font-size: 16px;
     font-style: italic;
     color: #666;
+}
+
+pre {
+    padding: 1em;
+    border-radius: 8px;
+}
+
+code {
+    font-family: "Fira Mono";
+    font-size: 18px;
 }
 
 // guaranteed to look good on firefox on galaxy s9
