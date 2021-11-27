@@ -1,0 +1,3 @@
+[submodule "themes/pizza"]
+	path = themes/pizza
+	url = git@github.com:rosehuds/pizza

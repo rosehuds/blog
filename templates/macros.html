@@ -1,9 +1,0 @@
-{% macro link_page(link_text, link_dest) %}
-{% if current_path != link_dest %}
-    <a href="{{ link_dest }}">
-{% endif %}
-        {{ link_text }}
-{% if current_path != link_dest %}
-    </a>
-{% endif %}
-{% endmacro link_page %}

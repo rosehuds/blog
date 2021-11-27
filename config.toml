@@ -1,6 +1,7 @@
 # The URL the site will be built for
 base_url = "https://blog.krx.sh"
 title = "//TODO(rose)"
+theme = "pizza"
 
 compile_sass = true
 build_search_index = false
