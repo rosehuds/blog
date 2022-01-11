@@ -1,6 +1,7 @@
 +++
 title = "about me"
 date = "2021-10-31"
+path = "about/"
 +++
 
 Hi! I'm Rose. I'm a first year CS student at the University of Bristol, and I'm
