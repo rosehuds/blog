@@ -195,4 +195,4 @@ some real-world examples of the architectural concepts we've met so far.
 
 ***
 
-{{ prev_next(prev="@/gpus/1-intro.md", next="") }}
+{{ prev_next(prev="@/gpus/1-intro.md", next="@/gpus/3-first-program.md") }}
