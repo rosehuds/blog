@@ -1,7 +1,6 @@
 +++
 title = "GPUs, Part 3: An Example Program"
 date = "2022-01-11"
-draft = true
 +++
 
 Now that we've seen some of the theory behind GPUs, it's time to see how it
